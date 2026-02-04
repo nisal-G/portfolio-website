@@ -24,32 +24,25 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, a first-year MCA student at{' '}
+            Hi, my name is Nisal Gunathilaka, a Software Engineering undergraduate at{' '}
             <Link
-              href="https://bhu.ac.in/"
+              href="https://www.sliit.lk/"
               target="_blank"
               className="text-accent"
             >
-              Banaras Hindu University
+              SLIIT
             </Link>
-            .<br /> I'm an Artist as well as crazy full stack web developer who
-            wants to explore every tech stack.
+            .<br /> I'm a passionate full-stack developer who enjoys building real-world 
+            applications and exploring modern technologies, with a strong interest in 
+            backend development and system design.
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working at a
-            start-up -{' '}
-            <Link
-              href="https://www.pixelwand.live/"
-              target="_blank"
-              className="text-accent"
-            >
-              Pixelwand
-            </Link>
-            .
+            Fast-forward to today, I've worked on multiple full-stack and mobile projects, 
+            including e-commerce platforms, rental systems, and NGO support applications.
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+            My main focus these days is improving my full-stack skills, learning advanced 
+            backend concepts, and preparing for a software engineering internship.
           </p>
 
           {list && (

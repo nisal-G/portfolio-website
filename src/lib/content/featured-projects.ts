@@ -6,62 +6,40 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'GetLifeGuard',
-      description: 'An E-Commerce platform for Self-Defense Keychain.',
+      name: 'E-Commerce Platform',
+      description: 'A full-featured online shopping platform with modern UI.',
       tasks:
-        "As a freelancer, I understood the client's requirements and executed a plan to develop and design an e-commerce platform, including the frontend UI, backend setup with database, APIs, and integration with payment platforms.",
-      url: 'https://life-kit.vercel.app/',
-      img: 'https://life-kit.vercel.app/images/og.png',
+        'Built a complete e-commerce solution with product management, shopping cart, user authentication, and payment integration. Implemented responsive design and optimized performance for seamless user experience.',
+      url: 'https://github.com/nisal-G',
+      img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
       tags: [
-        'NextJs 14',
-        'TypeScript',
-        'TailwindCSS',
-        'ShadCN',
-        'Prisma',
-        'Stripe',
+        'React',
+        'Node.js',
+        'MongoDB',
+        'Express.js',
+        'Tailwind CSS',
       ],
     },
     {
       id: getId(),
-      name: 'Valuemetrix',
-      description: 'An AI Powered Investment Platform.',
+      name: 'Rental Management System',
+      description: 'A comprehensive system for managing rental properties.',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.valuemetrix.io/',
-      img: 'https://www.valuemetrix.io/images/og.png',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Developed a rental management application with features for property listings, tenant management, payment tracking, and booking system. Implemented full CRUD operations with MySQL database.',
+      url: 'https://github.com/nisal-G',
+      img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',
+      tags: ['Next.js', 'MySQL', 'TypeScript', 'Tailwind CSS'],
     },
     {
       id: getId(),
-      name: 'Velvi Matrimony',
+      name: 'NGO Support Application',
       description:
-        'A platform that redefines the way individuals find their life partners.',
+        'A mobile app to connect volunteers with NGOs and social causes.',
       tasks:
-        'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-      url: 'https://www.velvimatrimony.in/',
-      img: 'https://i.postimg.cc/tRS4GvzJ/Screenshot-2024-02-27-at-5-48-49-PM.png',
-      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'APIs'],
-    },
-    /*   {
-      id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
-      tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
-    }, */
-
-    {
-      id: getId(),
-      name: 'Drafton',
-      description: 'The AI-powered platform that simplifies proposal creation.',
-      tasks:
-        'I designed and developed the landing page and implemented the dashboard by creating a user interface and integrating APIs.',
-      url: 'https://www.drafton.io/',
-      img: 'https://i.postimg.cc/4N6dsGcm/Screenshot-2024-06-17-at-11-05-22-PM.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Created a cross-platform mobile application using Flutter and Firebase. Implemented features for event management, volunteer registration, donation tracking, and real-time notifications.',
+      url: 'https://github.com/nisal-G',
+      img: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&h=600&fit=crop',
+      tags: ['Flutter', 'Firebase', 'Dart', 'Cloud Functions'],
     },
   ],
 };

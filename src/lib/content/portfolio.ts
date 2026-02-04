@@ -7,33 +7,34 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://x.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  facebook: '',
+  instagram: '',
+  twitter: '',
+  github: 'https://github.com/nisal-G',
+  linkedin: 'https://www.linkedin.com/in/nisal-gunathilaka',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Nisal Gunathilaka',
+  email: 'nimgunathilaka021@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Nisal Gunathilaka | Full Stack Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Nisal Gunathilaka is a passionate full-stack developer and Software Engineering undergraduate at SLIIT, specializing in building real-world applications with modern technologies.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  image: '/nisal-gunathilaka.png',
+  url: 'https://nisalgunathilaka.vercel.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Nisal',
+    'Nisal Gunathilaka',
+    '@nisal-G',
+    'nisal-G',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Nisal Portfolio',
+    'Nisal Gunathilaka Portfolio',
+    'Full Stack Developer',
+    'SLIIT',
   ],
 };
