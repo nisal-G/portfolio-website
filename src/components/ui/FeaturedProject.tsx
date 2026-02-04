@@ -22,6 +22,8 @@ const FeaturedProject = ({
   align = 'left',
   ...rest
 }: Props) => {
+  // Use url if available, otherwise use repo
+  const targetUrl = url || repo || '#';
   return (
     <>
       <motion.div
@@ -48,7 +50,7 @@ const FeaturedProject = ({
             blurDataURL={blurImageURL}
           />
           <Link
-            href={`${url}`}
+            href={targetUrl}
             target="_blank"
             className="absolute inset-0 z-10 block bg-transparent"
           />
@@ -69,7 +71,7 @@ const FeaturedProject = ({
             </div>
             <h2 className="heading-tertiary !text-white lg:!text-dark-2 !font-semibold lg:!font-normal !normal-case">
               <a
-                href={url}
+                href={targetUrl}
                 className="block duration-200 hover:text-accent"
                 target="_blank"
               >
@@ -121,7 +123,7 @@ const FeaturedProject = ({
                 <Icon icon="tabler:brand-github" width={22} height={22} />
               </a>
               <a
-                href={url}
+                href={targetUrl}
                 className="block duration-200 hover:text-accent"
                 target="_blank"
               >
@@ -151,7 +153,7 @@ const FeaturedProject = ({
             blurDataURL={blurImageURL}
           />
           <Link
-            href={`${url}`}
+            href={targetUrl}
             target="_blank"
             className="absolute inset-0 z-10 block bg-transparent"
           />
@@ -164,7 +166,7 @@ const FeaturedProject = ({
             </div> */}
             <h2 className="heading-tertiary !text-white !font-semibold !normal-case">
               <a
-                href={url}
+                href={targetUrl}
                 className="block duration-200 hover:text-accent"
                 target="_blank"
               >
@@ -211,7 +213,7 @@ const FeaturedProject = ({
                 <Icon icon="tabler:brand-github" width={22} height={22} />
               </a>
               <a
-                href={url}
+                href={targetUrl}
                 className="block duration-200 hover:text-accent"
                 target="_blank"
               >

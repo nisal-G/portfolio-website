@@ -29,7 +29,9 @@ const ProjectCard = ({
         onClick={(e) => {
           // Don't run this if the clicked target is an anchor element
           if ((e.target as HTMLElement).closest('a')) return;
-          window.open(url);
+          // Use url if available, otherwise use repo
+          const targetUrl = url || repo;
+          if (targetUrl) window.open(targetUrl);
         }}
         className="block w-full overflow-hidden transition-all duration-200 rounded-md shadow-xl group bg-bg-secondary dark:shadow-2xl"
       >

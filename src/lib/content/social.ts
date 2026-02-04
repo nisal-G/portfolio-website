@@ -1,5 +1,5 @@
-import { socialLinks } from '@/lib/content/portfolio';
 import { SocialSectionType } from '@/lib/types/sections';
+import { socialLinks } from './portfolio';
 
 export const socialSection: SocialSectionType = {
   socialLinks: [
